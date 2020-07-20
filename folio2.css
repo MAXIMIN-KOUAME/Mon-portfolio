@@ -1,0 +1,95 @@
+html, body
+{
+height: 100%;
+}
+header nav ul li a
+{
+    text-decoration:none;
+    position:relative;
+    font-style: oblique;
+    font-size: 25px;
+    margin: 10px;
+    list-style: none;
+    display: inline;
+    color: brown;
+}
+nav li
+{
+     display: inline-block;
+     position: relative;
+    left: 30%;
+    top: -80px;
+    font-family: 'Poppins', sans-serif;
+}
+.titre
+{
+    position: relative;
+    margin-left: 35%;
+    font-size: 50px;
+    color: red;
+    font-family: 'Orbitron', sans-serif;
+}
+header
+{
+    background-image: url(imagd.jpg);
+}
+h1
+{
+   position: relative;
+    margin-left: 35%; 
+    font-size: 35px;
+    font-family: 'Orbitron', sans-serif;
+}
+.presentation
+{
+    display: inline-flex;
+    margin-left: 55px;
+    background-color: gainsboro;
+}
+.pre1
+{
+    position: relative;
+    margin-left: 80px;
+    
+}
+.ima
+{
+   position: relative;
+   margin-left: 80px; 
+}
+.etudes
+{
+   display: inline-flex;
+}
+.universitaire
+{
+   position: relative;
+    margin-left: 70px;  
+}
+.secondaire
+{
+    position: relative;
+    margin-left: 70px; 
+}
+.elev1
+{
+    width: 350px;
+}
+.prof1
+{
+    display: inline-flex;
+}
+.profe4
+{
+ display: inline-flex;
+}
+.end
+{
+  display: inline-flex;
+    margin: 10px;
+}
+.appel, .mail, .wathsapp, .icons
+{
+    position: relative;
+    margin-left: 20px;
+}

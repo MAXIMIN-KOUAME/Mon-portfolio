@@ -1,0 +1,236 @@
+header
+{
+    position:fixed;
+    top: 10px;
+    left: 10px;
+    background-color: cadetblue;
+    margin: auto;
+    min-width: 200px;
+    max-width: 2000px;
+    width: 90%;
+    height: 160px;
+    background-image:url(fds2.jpg); 
+    border-bottom-style:hidden;
+    border-bottom-width:medium;
+    background-attachment:local;
+    background-repeat: space;
+}
+nav, u1, li
+{
+    text-align:left;
+    position:relative;
+    top: 10px;
+    margin-left: 10px;
+    margin-top: 200px;
+    display: inline;
+    color: black;
+}
+li
+{
+    top: -50px;
+    left: 580px;
+}
+.titre-principal
+{
+font-family: ('poppins'),poppins-italic;
+    position: absolute;
+    top: 45px;
+    color: yellowgreen;
+}
+@font-face 
+{  
+    font-family: 'poppins';   
+    src:
+        url('Poppins-Bold') format('bold'),
+        url('poppins-black') format('black'),
+        url('poppins-italic') format('italic');
+    font-family:'openSans';
+    src:
+       url('OpenSans-Extrabolditalic') format('extrabolditalic'),
+        url('OpenSans-Semibold') format('semibold'),
+        url('OpenSans-Regular') format('regular');
+}
+footer
+{
+    position:fixed;
+    bottom: 10px;
+    background-color: gray;
+    height: 100px;
+    margin: auto;
+    min-width: 200px;
+    max-width: 2000px;
+    width: 90%
+}
+.pied-de-page
+{
+    position:absolute;
+    bottom: 0px;
+    right: 10px;
+}
+html, body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.contact
+{
+    margin: 20px;
+    color:darkred;
+    font-size: 20px;
+}
+.identite
+{
+    position: absolute;
+    left: 30px;
+}
+.principal
+{
+    position: absolute;
+    text-align: center;
+    color:red;
+    font-size: 60px;
+   background-image: url(fd.png);
+    left: 100px;
+    font-family: ('poppins'), poppins-italic; 
+ }
+
+.second
+{
+    position: relative;
+    top:100px;
+    color:tomato;
+    font-size: 30px;
+    font-family: ('openSans'), OpenSans-Extrabolditalic;
+}
+section
+{
+    position:absolute;
+    left: 50px;
+    top: 190px;
+    font-family: ('poppins'),Poppins-Bold;
+    background-image: url(fd.png);
+    background-position: center center;
+    width: 950px;
+    height: 293px;
+    background-blend-mode: color-burn;
+    
+}
+.fille
+{
+    position: absolute;
+    left: 50%;
+    margin-top: 180px;
+}
+.photo1
+{
+    position: absolute;
+    top:180px;
+    right: 300px;
+    
+}
+.photo2
+{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.fille
+{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.photo3
+{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.ident
+{
+    position: absolute;
+    top: 250px;
+    text-align: justify;
+    width: 800px;
+    left: 200px;
+    color:rebeccapurple;
+    font-family: ('OpenSans'), Extrabolditalic;
+    font-size: 20px;
+}
+h2
+{
+    position: relative;
+    padding-top: 50px;
+}
+.pp
+{
+    position:relative;
+    top: 180px;
+    left: 30px;
+    
+}
+html, body
+{
+    height: auto;
+    width: auto;
+}
+.contacts
+{
+    position: absolute;
+    border: 1px solid black;
+    top: 250px;
+    left: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:blanchedalmond;
+    width: auto;
+}
+@media screen and (max-width: 950px)
+{
+    body
+    {
+        font-size: 12px
+    }
+    header
+    {
+        width: 72%;
+        height: 100px;   
+    }
+    li
+    {
+        position:relative;
+        left: -30px;
+        top: 10px;
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    footer
+    {
+       position:fixed;
+    bottom: 10px;
+    background-color: gray;
+    height:auto;
+    margin: auto;
+    min-width: 100px;
+    max-width: 600px;
+    width: 72%  
+    }
+    .contact
+    {
+        position: absolute;
+        bottom: 50px;
+        left: 160px;
+        font-size: 16px;
+    }
+    .pied-de-page
+    {
+       position:relative;
+    bottom: 10px;
+    left: 10px; 
+    height: 40px;
+    width:auto;
+    }
+}
